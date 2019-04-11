@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if (number == 0)
             return theRange;
-        return numNames[number] + " Hundred" + theRange;
+        return numNames[number] + " Hundred and " + theRange;
     }
 
 }

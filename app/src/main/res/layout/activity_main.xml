@@ -8,7 +8,6 @@
     android:gravity="center"
     >
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,6 +15,7 @@
         android:text="Enter Number 0 to 999"
         android:textSize="30sp"
         android:gravity="center"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
