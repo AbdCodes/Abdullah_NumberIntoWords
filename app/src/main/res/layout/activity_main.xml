@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelEntNum"
+        android:text="Enter Number 0 to 999"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEnterNum"
+        android:layout_below="@id/labelEntNum"
+        android:textSize="30dp"
+        android:inputType="number"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConvert"
+        android:layout_below="@id/etEnterNum"
+        android:textSize="20dp"
+        android:text="Convert to Words"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMyresult"
+        android:layout_below="@id/btnConvert"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
